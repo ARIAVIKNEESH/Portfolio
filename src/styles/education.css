@@ -1,0 +1,93 @@
+/* Education Section */
+.education-section {
+    background-color: #f8f9fa;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .education-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+  
+  /* Horizontal Timeline */
+  .education-timeline {
+    display: flex;
+    justify-content: space-around; /* Ensures equal spacing */
+    align-items: flex-start;
+    position: relative;
+    max-width: 90%;
+    margin: auto;
+    padding-top: 40px;
+  }
+  
+  /* Education Item */
+  .education-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    width: 30%; /* Ensures uniform width */
+  }
+  
+  /* Timeline Dots */
+  .timeline-dot {
+    width: 12px;
+    height: 12px;
+    background-color: #b300ff;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  /* Education Details */
+  .education-details {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: #444;
+  }
+  
+  .education-year {
+    font-weight: bold;
+    font-size: 22px;
+    color: #222;
+  }
+  
+  .education-course {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 5px;
+  }
+  
+  .education-institution {
+    font-size: 18px;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  .education-percentage {
+    font-size: 18px;
+    color: #888;
+    margin-top: 8px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .education-timeline {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .education-item {
+      width: 80%;
+      margin-bottom: 30px;
+    }
+  }
+  
