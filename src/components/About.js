@@ -15,7 +15,7 @@ const About = () => {
             HI, I AM <span className="highlight">ARIA VIKNEESH U S</span>
           </h1>
           <p>UI/UX DESIGNER AND WEB DEVELOPER</p>
-          <a href={resumePDF} download="Browny_Star_Resume.pdf" className="resume-btn">
+          <a href={resumePDF} download="ARIA_VIKNEESH_Resume.pdf" className="resume-btn">
             Download Resume
           </a>
         </div>
