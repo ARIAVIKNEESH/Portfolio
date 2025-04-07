@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/about.css";
 import myProfile from "../assets/first.jpg"; // First image
-import aboutImage from "../assets/profile.jpg"; // Second image
+import aboutImage from "../assets/ARIA VIKNEESH U S - IMAGE.jpg"; // Second image
 import resumePDF from "../assets/resume.pdf"; // Resume PDF
 
 const About = () => {
