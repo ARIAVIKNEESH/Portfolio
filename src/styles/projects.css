@@ -1,0 +1,95 @@
+.projects {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #f9f9f9;
+}
+
+.projects h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.projects-carousel {
+  width: 85%;
+  max-width: 900px;
+  margin: auto;
+}
+
+.project-card {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+}
+
+.project-image-container {
+  position: relative;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.hover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  padding: 15px;
+  text-align: center;
+}
+
+.project-image-container:hover .hover-overlay {
+  opacity: 1;
+}
+
+.hover-overlay h3 {
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+
+.hover-overlay p {
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+}
+
+.hover-overlay ul {
+  list-style: none;
+  padding: 0;
+}
+
+.hover-overlay ul li {
+  font-size: 0.85rem;
+  margin-bottom: 5px;
+}
+
+.live-demo-btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 12px;
+  background-color: #ff4d4d;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 0.85rem;
+}
+
+.live-demo-btn:hover {
+  background-color: #ff1a1a;
+}
